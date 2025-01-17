@@ -1,0 +1,11 @@
+
+__pycache__
+etc
+faiss_index
+Include
+Lib
+rtdocs
+Scripts
+share
+.env
+pyvenv.cfg
