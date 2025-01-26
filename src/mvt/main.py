@@ -32,10 +32,11 @@ def get_ragchain():
 
     # Answer question
     qa_system_prompt = (
-    "You are an assistant for question-answering tasks. "
+    "You are an assistant for question-answering tasks "
+    "that are related to Hyperledger Fabric blockchain. "
     "Use the following pieces of retrieved context to answer "
     "the question. If you don't know the answer, say that you "
-    "don't know. Use five sentences maximum. "
+    "don't know. "
     "\n\n"
     "{context}"
     )
